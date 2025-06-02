@@ -27,9 +27,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         	   = "terra-eks12"
+    bucket         	   = "terraform-eks-02062025"
     key              	   = "state/terraform.tfstate"
-    region         	   = "us-east-1"
+    region         	   = "ap-south-2"
   }
 
   required_version = "~> 1.3"
